@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadPointer: {fileID: 0}
-  MinCursorDistance: 1
+  MinCursorDistance: 200
   DefaultCursorDistance: 2
   SurfaceCursorDistance: 0.02
   UseUnscaledTime: 1
@@ -605,6 +605,34 @@ MonoBehaviour:
   RotationLerpTime: 0.01
   LookRotationBlend: 0
   PrimaryCursorVisual: {fileID: 4000014090385390}
+  EnableStateData:
+    Name: 
+    CursorState: 0
+    Parameter:
+      Type: 0
+      DefaultInt: 0
+      DefaultFloat: 0
+      DefaultBool: 0
+      Name: 
+    AnimInputType: 0
+    AnimParameterName: 
+    AnimBoolValue: 0
+    AnimIntValue: 0
+    AnimFloatValue: 0
+  DisableStateData:
+    Name: 
+    CursorState: 0
+    Parameter:
+      Type: 0
+      DefaultInt: 0
+      DefaultFloat: 0
+      DefaultBool: 0
+      Name: 
+    AnimInputType: 0
+    AnimParameterName: 
+    AnimBoolValue: 0
+    AnimIntValue: 0
+    AnimFloatValue: 0
   CursorStateData:
   - Name: Observe
     CursorState: 0

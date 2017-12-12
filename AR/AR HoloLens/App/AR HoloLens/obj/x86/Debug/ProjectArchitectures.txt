@@ -1,0 +1,4 @@
+C:\Users\Developer\Downloads\AR\AR HoloLens\App\AR HoloLens\AR HoloLens.csproj;x86
+C:\Users\Developer\Downloads\AR\AR HoloLens\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Developer\Downloads\AR\AR HoloLens\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Developer\Downloads\AR\AR HoloLens\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
