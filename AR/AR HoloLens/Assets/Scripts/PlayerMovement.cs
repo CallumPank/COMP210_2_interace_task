@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour {
         targetPosition.y = transform.position.y;
 
         transform.LookAt(targetPosition);
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, (speed / 1f) * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, (speed / 5f) * Time.deltaTime);
 
     }
 
