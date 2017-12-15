@@ -35,7 +35,7 @@ public class DamagePlayer : MonoBehaviour {
         if (playerHealth <= 0)
         {
             audioSource.Play();
-            return;
+            Application.LoadLevel("IceRink");
         }
     }
 

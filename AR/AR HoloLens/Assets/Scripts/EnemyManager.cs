@@ -20,7 +20,7 @@ public class EnemyManager : MonoBehaviour
         //Enemies wont span if player health reaches zero
         if (healthMotor.enemyHealth <= 0f)
         {
-            
+            Application.LoadLevel("IceRink");
             return;
         }
 
