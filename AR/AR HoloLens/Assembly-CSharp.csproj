@@ -431,11 +431,13 @@
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\DamageEnemy.cs" />
      <Compile Include="Assets\Scripts\DamagePlayer.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Shaders\Obsolete\UnlitConfigurable.shader" />

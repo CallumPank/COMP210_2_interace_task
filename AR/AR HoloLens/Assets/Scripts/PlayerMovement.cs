@@ -12,18 +12,25 @@ public class PlayerMovement : MonoBehaviour {
     public bool isWalking;
     private Vector3 cursorPosition;
 
+  
+
 	// Use this for initialization
 	void Start ()
     {
         isWalking = true;
-	}
+
+        
+    }
+
 
     private void PlayerMoving()
     {
+        //PLayer will head towards where the cursor of the hololens is
         cursorPosition = GameObject.Find("Anchor_Cursor").transform.position;
         targetPosition = cursorPosition;
         targetPosition.y = transform.position.y;
 
+        //will look at cursor and move towards it
         transform.LookAt(targetPosition);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, (speed / 5f) * Time.deltaTime);
 
@@ -36,6 +43,7 @@ public class PlayerMovement : MonoBehaviour {
         if (isWalking)
         {
             PlayerMoving();
+            
         }
 
         
