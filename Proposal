@@ -1,0 +1,4 @@
+My proposal for this task is to use a point and click, top down horror game. In this game you control a charater from above and guide them through a dark library,
+this works well for what I want to do as the main gesture in the hololens is a tapping gesture. The areas that it could be played are numeroud as well
+as all you would need is a flat surface to play at. I also want to see if I can optimize gestures to be used differently to how they usuallyARE.
+Such as tapping once on the screen and then dragging a line made on screen to another point and tapping agin this would then zoom in between these two points.
